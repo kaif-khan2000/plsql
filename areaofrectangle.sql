@@ -1,0 +1,11 @@
+DECLARE
+    LEN INTEGER;
+    BRE INTEGER;
+    AREA INTEGER;
+BEGIN
+    LEN := &LEN;
+    BRE := &BRE;
+    AREA := LEN * BRE;
+    DBMS_OUTPUT.PUT_LINE('AREA IS '||AREA);
+END;
+/
