@@ -5,6 +5,6 @@ DECLARE
 	and nothing more
 	 */
 BEGIN
-	DBMS_OUTPUT.PUT_LINE('HELLO WORLD');
+	DBMS_OUTPUT.PUT_LINE(cast(123/10 as int));
 END;
 /
