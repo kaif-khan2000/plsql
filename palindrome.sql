@@ -12,6 +12,7 @@ begin
         rev := rev*10 + rem;
         num := num/10;
     end loop;
+    DBMS_OUTPUT.PUT_LINE(rev);
     if (rev = temp) then
         DBMS_OUTPUT.PUT_LINE('palindrome');
     else
